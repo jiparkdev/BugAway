@@ -1,2 +1,3 @@
-# BugTracker
-A bug tracking software.
+# BugAway
+
+BugAway is a software issue/bug tracking software.
