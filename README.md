@@ -1,3 +1,3 @@
 # BugAway
 
-BugAway is a a issue/bug tracking web-based tool.
+BugAway is a web-based issue tracking tool for IT professionals, software developers, testers, and managers.
