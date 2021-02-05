@@ -1,25 +1,21 @@
-BugTracker Requirements
+BugAway Requirements
 
-* BugTracker should have authentication and authorization capabilities.
-* BugTracker should have user categories such as developer, tester, and project manager.
-* BugTracker should allow the users to create, read, update, and delete PRs.
+* BugAway should have authentication and authorization capabilities.
+* BugAway should have user categories such as developer, tester, and project manager.
+* BugAway should allow the users to create, read, update, and delete PRs.
 * Problem Report Specification
-  * Allow the reporter to choose the bug severity.
-  * Allow the reporter to assign it to someone.
+  * All PRs shall be in one of the following states: new, open, in discussion, resolved, closed
+  * Allow the reporter to select the issue type: enhancement, question, bug, feature request, discussion
+  * Allow the reporter or assignee to select the issue resolution: unsolved, wontfix, stale, duplicate, backlog, needs more information.
+  * Allow the reporter to input a title of the issue.
   * Allow the reporter to input large text to describe the issue.
-* Create issue
-  * Allow the reporter to select the issue type.
-  * Allow the reporter to write a short summary.
-  * Bug ticket editor. Allow the bug creator to set the bug's severity, describe the issue, and allow them to assign the bug to someone.
-* A bug should be tied to a project.
-* Track changes to ticket – Ticket history
-* Create tickets through emails
+  * Allow the reporter to choose the severity of the issue.
+  * Allow the reporter to assign the PR to one person, CC to multiple, or to no one.
+  * Allow the reporter to choose a project for which the bug is under.
+* Track changes to ticket – ticket history
 * Reply tickets  and send notifications through emails.
-* A bug may have a status.
 * Send notifications for new projects or bugs.
 * Allow a user to subscribe to get emails for changes in a project or bugs.
-* The time a bug was reported, its severity, the erroneous program behavior, and details on how to reproduce the bug, as well as the identity of the person who reported it, and any programmers who may be working on fixing it.
-* Allow the user to set bug similarity level: duplicate or related to a different 
 
 Problem Report Life-cycle
 Reference: http://www.no.freebsd.org/doc/en_US.ISO8859-1/articles/pr-guidelines/article.html
