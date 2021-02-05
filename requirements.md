@@ -7,7 +7,9 @@ BugTracker Requirements
   * Allow the reporter to choose the bug severity.
   * Allow the reporter to assign it to someone.
   * Allow the reporter to input large text to describe the issue.
-* CRUD bug tickets.
+* Create issue
+  * Allow the reporter to select the issue type.
+  * Allow the reporter to write a short summary.
   * Bug ticket editor. Allow the bug creator to set the bug's severity, describe the issue, and allow them to assign the bug to someone.
 * A bug should be tied to a project.
 * Track changes to ticket – Ticket history
