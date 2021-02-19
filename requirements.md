@@ -1,8 +1,9 @@
 BugAway Requirements
 
 * BugAway should have authentication and authorization capabilities.
-* BugAway should have user categories such as developer, tester, and project manager.
-* BugAway should allow the users to create, read, update, and delete PRs.
+* BugAway should have user categories such as developer, tester, project manager, and system admin.
+* BugAway should allow developers, testers, and project managers to create, read, and update PRs.
+* BugAway should allow system admins to create, read, update, and delete PRs.
 * Problem Report Specification
   * All PRs shall be in one of the following states: new, open, in discussion, resolved, closed
   * Allow the reporter to select the issue type: enhancement, question, bug, feature request, discussion
